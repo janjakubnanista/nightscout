@@ -1,5 +1,7 @@
 # Don't include the .git history in the Docker image:
 .git
+.dockerignore
+fly.toml
 
 # Items from .gitignore
 bower_components/
